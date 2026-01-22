@@ -5,11 +5,11 @@ export const MonarhPage: React.FC = () => {
   return (
     <div className="bg-[#0a0a0a] text-white selection:bg-[#c5a059] selection:text-[#0a0a0a]">
       {/* 1. HERO SEKCIJA - NE DIRATI PREMA INSTRUKCIJAMA */}
-      <section className="relative min-h-[100dvh] w-full flex items-center justify-center overflow-hidden pt-28 pb-16">
+      <section className="relative h-[100dvh] w-full flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5a?q=80&w=2071&auto=format&fit=crop" 
-            className="w-full h-full object-cover opacity-30 grayscale contrast-125 scale-105"
+            className="w-full h-full object-cover object-center opacity-30 grayscale contrast-125 scale-105"
             alt="Monarh Riding"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-transparent to-[#0a0a0a]"></div>
