@@ -26,7 +26,7 @@ export const RedCarpetPage: React.FC = () => {
   return (
     <div className="bg-[#0a0a0a]">
       {/* 1. HERO SEKCIJA */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative h-screen flex items-center justify-center overflow-hidden pt-24">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop" 

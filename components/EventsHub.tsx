@@ -28,7 +28,7 @@ export const EventsHub: React.FC<EventsHubProps> = ({ setPage }) => {
   ];
 
   return (
-    <div className="h-screen flex flex-col justify-center bg-[#050505]">
+    <div className="h-screen flex flex-col justify-center pt-24 bg-[#050505]">
       <section className="px-6 md:px-12">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mb-32">

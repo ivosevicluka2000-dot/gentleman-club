@@ -7,7 +7,7 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onMembershipClick }) => {
   return (
-    <section className="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden bg-[#050505]">
+    <section className="relative h-screen w-full flex flex-col items-center justify-center overflow-hidden bg-[#050505] pt-24">
       {/* Background - Atmospheric Faceless Luxury */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=2080&auto=format&fit=crop')] bg-cover bg-center opacity-10 grayscale contrast-125 scale-100 transition-transform duration-[40000ms] animate-slow-zoom"></div>
