@@ -374,23 +374,23 @@ export const MentorshipPage: React.FC = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-transparent to-[#0a0a0a]"></div>
         </div>
 
-        <div className="max-w-6xl mx-auto w-full relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <h4 className="text-xs tracking-[0.6em] uppercase gold-accent mb-12 font-medium italic">Viši nivo odgovornosti</h4>
-            <h1 className="serif text-5xl md:text-8xl font-light mb-16 tracking-tight leading-none uppercase">
+        <div className="max-w-7xl mx-auto w-full relative z-10 scale-110 origin-center transform-gpu">
+          <div className="max-w-5xl mx-auto text-center">
+            <h4 className="text-sm tracking-[0.6em] uppercase gold-accent mb-12 font-medium italic">Viši nivo odgovornosti</h4>
+            <h1 className="serif text-6xl md:text-9xl font-light mb-16 tracking-tight leading-none uppercase">
               Diplomat’s <br /><span className="italic gold-accent">Mentorship</span>
             </h1>
             <div className="space-y-8">
-              <p className="serif text-2xl md:text-5xl font-light opacity-90 italic leading-tight max-w-2xl mx-auto">
+              <p className="serif text-3xl md:text-6xl font-light opacity-90 italic leading-tight max-w-3xl mx-auto">
                 Diplomat's Mentorship je namenjen muškarcima koji su spremni da preuzmu odgovornost i naprave ozbiljan iskorak u poslu, razmišljanju i životu.
               </p>
               <div className="w-px h-24 bg-gradient-to-b from-[#c5a059] to-transparent mx-auto"></div>
-              <p className="text-sm md:text-base font-light opacity-40 uppercase tracking-[0.4em] italic">
+              <p className="text-base md:text-lg font-light opacity-40 uppercase tracking-[0.4em] italic">
                 Ovo nije motivacioni program. Ovo je mentorski proces.
               </p>
             </div>
             <div className="mt-16">
-              <a href="#prijava" className="px-16 py-6 bg-[#c5a059] text-[#0a0a0a] text-[10px] uppercase tracking-[0.5em] font-medium hover:bg-white transition-all duration-500">
+              <a href="#prijava" className="px-16 py-6 bg-[#c5a059] text-[#0a0a0a] text-xs uppercase tracking-[0.5em] font-medium hover:bg-white transition-all duration-500">
                 Prijavi se za mentorship
               </a>
             </div>
