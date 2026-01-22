@@ -5,7 +5,7 @@ export const MasterclassPage: React.FC = () => {
   return (
     <div>
       {/* 1. HERO - Pozicioniranje */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6 md:px-12 pt-40 pb-16 relative overflow-hidden">
+      <section className="h-screen flex flex-col items-center justify-center px-6 md:px-12 pt-28 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop" 

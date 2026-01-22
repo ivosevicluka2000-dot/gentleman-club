@@ -48,7 +48,7 @@ export const CommunityPage: React.FC = () => {
   return (
     <div>
       {/* HERO WITH BACKGROUND IMAGE */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6 md:px-12 pt-40 pb-16 relative overflow-hidden">
+      <section className="h-screen flex flex-col items-center justify-center px-6 md:px-12 pt-32 pb-12 relative overflow-hidden">
         {/* Background Layer */}
         <div className="absolute inset-0 z-0">
           <img 
