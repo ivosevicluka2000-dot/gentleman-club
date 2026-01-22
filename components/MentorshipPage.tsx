@@ -364,7 +364,7 @@ export const MentorshipPage: React.FC = () => {
   return (
     <div className="pt-24 md:pt-32">
       {/* 1. HERO - EMOTIONAL TRIGGER */}
-      <section className="min-h-screen flex flex-col justify-center px-6 md:px-12 py-24 relative overflow-hidden">
+      <section className="h-screen flex flex-col items-center justify-center px-6 md:px-12 relative overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=2071&auto=format&fit=crop" 
