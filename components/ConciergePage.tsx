@@ -17,7 +17,7 @@ export const ConciergePage: React.FC = () => {
   return (
     <div className="bg-[#050505] min-h-screen text-white font-light">
       {/* HERO */}
-      <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-6 pt-40 pb-20 border-b border-white/5">
+      <section className="h-screen flex items-center justify-center relative overflow-hidden px-6 border-b border-white/5">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop" 
