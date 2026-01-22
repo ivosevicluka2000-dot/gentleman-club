@@ -60,18 +60,18 @@ export const CommunityPage: React.FC = () => {
         </div>
 
         <div className="max-w-5xl mx-auto text-center relative z-10">
-          <span className="serif text-3xl md:text-5xl gold-accent mb-6 block font-light italic animate-fade-in">Gentlemen’s Heritage</span>
-          <h1 className="serif text-5xl md:text-8xl font-light mb-12 tracking-tight leading-none uppercase">
+          <span className="serif text-3xl md:text-5xl gold-accent mb-4 block font-light italic animate-fade-in">Gentlemen's Heritage</span>
+          <h1 className="serif text-5xl md:text-8xl font-light mb-8 tracking-tight leading-none uppercase">
             Online zajednica
           </h1>
-          <p className="serif text-2xl md:text-4xl font-light opacity-60 mb-12 italic">
+          <p className="serif text-2xl md:text-3xl font-light opacity-60 mb-8 italic">
             Fale ti veštine za uspeh u poslu i životu?
           </p>
-          <p className="text-sm md:text-base font-light opacity-40 leading-relaxed max-w-2xl mx-auto mb-16">
-            Gentlemen’s Heritage je online zajednica namenjena muškarcima koji žele disciplinu, znanje i karakter, okruženi ljudima istih vrednosti.
+          <p className="text-sm md:text-base font-light opacity-40 leading-relaxed max-w-2xl mx-auto mb-8">
+            Gentlemen's Heritage je online zajednica namenjena muškarcima koji žele disciplinu, znanje i karakter, okruženi ljudima istih vrednosti.
           </p>
-          <div className="flex flex-col items-center gap-6">
-             <div className="w-px h-24 bg-gradient-to-b from-[#c5a059] to-transparent"></div>
+          <div className="flex flex-col items-center gap-4">
+             <div className="w-px h-16 bg-gradient-to-b from-[#c5a059] to-transparent"></div>
              <p className="text-[10px] uppercase tracking-[0.5em] gold-accent">Ovo nije još jedna online grupa. Ovo je zatvoren krug ozbiljnih ljudi.</p>
           </div>
         </div>

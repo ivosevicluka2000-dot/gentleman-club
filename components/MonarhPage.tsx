@@ -16,13 +16,13 @@ export const MonarhPage: React.FC = () => {
         </div>
 
         <div className="relative z-10 text-center px-6">
-          <h4 className="text-[10px] md:text-xs tracking-[0.8em] uppercase font-light mb-12 opacity-60 gold-accent">
-            Gentlemen’s Riding Club
+          <h4 className="text-[10px] md:text-xs tracking-[0.8em] uppercase font-light mb-8 opacity-60 gold-accent">
+            Gentlemen's Riding Club
           </h4>
-          <h1 className="serif text-7xl md:text-[12rem] font-light tracking-[0.2em] leading-none mb-16 uppercase">
+          <h1 className="serif text-7xl md:text-[12rem] font-light tracking-[0.2em] leading-none mb-10 uppercase">
             MONARH
           </h1>
-          <div className="w-px h-32 bg-gradient-to-b from-[#c5a059] to-transparent mx-auto"></div>
+          <div className="w-px h-20 bg-gradient-to-b from-[#c5a059] to-transparent mx-auto"></div>
         </div>
       </section>
 

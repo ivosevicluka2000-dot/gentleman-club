@@ -17,11 +17,11 @@ export const MasterclassPage: React.FC = () => {
 
         <div className="max-w-6xl mx-auto w-full relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h4 className="text-xs tracking-[0.5em] uppercase gold-accent mb-8 font-medium">Limited Invitation Only</h4>
-            <h1 className="serif text-5xl md:text-8xl font-light mb-12 tracking-tight leading-none uppercase">
+            <h4 className="text-xs tracking-[0.5em] uppercase gold-accent mb-6 font-medium">Limited Invitation Only</h4>
+            <h1 className="serif text-5xl md:text-8xl font-light mb-8 tracking-tight leading-none uppercase">
               Gentlemen's <br /><span className="italic gold-accent">MasterClass</span>
             </h1>
-            <p className="serif text-2xl md:text-4xl font-light opacity-80 mb-12 italic leading-relaxed">
+            <p className="serif text-2xl md:text-3xl font-light opacity-80 mb-8 italic leading-relaxed">
               Događaj koji redefiniše standarde ličnog i profesionalnog uspeha.
             </p>
             <div className="flex flex-col sm:flex-row gap-8 items-center justify-center">

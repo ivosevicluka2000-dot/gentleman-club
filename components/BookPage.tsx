@@ -12,14 +12,14 @@ export const BookPage: React.FC<BookPageProps> = ({ setPage }) => {
       <section className="h-screen flex flex-col items-center justify-center px-6 md:px-12 pt-28 pb-8 relative overflow-hidden">
         <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1">
-            <h4 className="text-xs tracking-[0.5em] uppercase gold-accent mb-8">Lični vodič za savremenog muškarca</h4>
-            <h1 className="serif text-6xl md:text-9xl font-light mb-12 tracking-tight leading-none italic">
+            <h4 className="text-xs tracking-[0.5em] uppercase gold-accent mb-6">Lični vodič za savremenog muškarca</h4>
+            <h1 className="serif text-6xl md:text-8xl font-light mb-8 tracking-tight leading-none italic">
               DŽENTLMEN
             </h1>
-            <p className="serif text-2xl md:text-3xl font-light opacity-80 mb-12 italic leading-relaxed">
+            <p className="serif text-xl md:text-2xl font-light opacity-80 mb-6 italic leading-relaxed">
               Da li ti je važno kakav prvi utisak ostavljaš na ljude oko sebe?
             </p>
-            <p className="text-sm md:text-base font-light opacity-50 leading-relaxed max-w-lg mb-12">
+            <p className="text-sm md:text-base font-light opacity-50 leading-relaxed max-w-lg mb-8">
               Način na koji govoriš, stojiš, donosiš odluke i odnosiš se prema drugima govori mnogo o tebi.
               Knjiga „Džentlmen“ je lični vodič za muškarce koji žele disciplinu, stil, integritet i jasno postavljene vrednosti u vremenu u kome se one sve češće gube.
             </p>
@@ -51,10 +51,6 @@ export const BookPage: React.FC<BookPageProps> = ({ setPage }) => {
           </div>
         </div>
 
-        <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 opacity-40">
-           <span className="text-[10px] uppercase tracking-[0.5em] gold-accent">Džentlmen nije titula. Džentlmen je izbor.</span>
-           <div className="w-px h-12 bg-gradient-to-b from-[#c5a059] to-transparent"></div>
-        </div>
       </section>
 
       {/* 2. ŠTA JE KNJIGA „DŽENTLMEN“ */}
