@@ -17,7 +17,7 @@ export const MeetUpPage: React.FC = () => {
   return (
     <div className="bg-[#050505] min-h-screen text-white font-light">
       {/* HERO */}
-      <section className="h-screen flex items-center justify-center relative overflow-hidden px-6 pt-24">
+      <section className="h-[100dvh] flex items-center justify-center relative overflow-hidden px-6 pt-24 pb-12">
         <div className="absolute inset-0 z-0">
           <img 
             src="https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?q=80&w=2070&auto=format&fit=crop" 
