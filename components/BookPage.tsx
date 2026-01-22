@@ -9,7 +9,7 @@ export const BookPage: React.FC<BookPageProps> = ({ setPage }) => {
   return (
     <div>
       {/* 1. HERO SEKCIJA */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6 md:px-12 pt-32 pb-16 relative overflow-hidden">
+      <section className="min-h-screen flex flex-col items-center justify-center px-6 md:px-12 pt-40 pb-16 relative overflow-hidden">
         <div className="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-16 items-center">
           <div className="order-2 md:order-1">
             <h4 className="text-xs tracking-[0.5em] uppercase gold-accent mb-8">Lični vodič za savremenog muškarca</h4>

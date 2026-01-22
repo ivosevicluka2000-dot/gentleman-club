@@ -28,8 +28,8 @@ export const EventsHub: React.FC<EventsHubProps> = ({ setPage }) => {
   ];
 
   return (
-    <div className="pt-32 pb-64 bg-[#050505]">
-      <section className="px-6 md:px-12 py-24">
+    <div className="min-h-screen flex flex-col justify-center pt-40 pb-32 bg-[#050505]">
+      <section className="px-6 md:px-12">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mb-32">
             <span className="gold-accent text-[10px] tracking-[0.5em] uppercase opacity-60 block mb-8">Inicijative i Iskustva</span>

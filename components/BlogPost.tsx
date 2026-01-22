@@ -70,7 +70,7 @@ export const BlogPost: React.FC<BlogPostProps> = ({ slug }) => {
   return (
     <article className="bg-[#050505] min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[80vh] flex items-center justify-center overflow-hidden border-b border-white/5">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden border-b border-white/5 pt-40 pb-20">
         <div className="absolute inset-0 z-0">
           <img src={post.image} className="w-full h-full object-cover opacity-30 grayscale contrast-125" alt={post.title} />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#050505]"></div>
